@@ -23,9 +23,13 @@ app.use(express.static('public'));
 app.use('/', routes);
 
 app.get('/routes/apiRoutes/index', (req, res) => {
-    res.send('Hello!');
+    res.json(notes);
+});
+
+app.get('./public/lib/notes', (req, res) => {
+    res.json(notes);
   });
-  
+
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
     // Note that we save the animalsArray as filteredResults here:
