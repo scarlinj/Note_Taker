@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const fs = require('fs');
 const path = require('path');
+// const { notes } = require('./public/lib/notes')
 
 // parse incoming string or array data
 app.use(express.urlencoded({
@@ -21,6 +22,10 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use('/', routes);
 
+app.get('/routes/apiRoutes/index', (req, res) => {
+    res.send('Hello!');
+  });
+  
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
     // Note that we save the animalsArray as filteredResults here:
