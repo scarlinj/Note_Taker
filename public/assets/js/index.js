@@ -79,7 +79,7 @@ const handleNoteSave = () => {
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
-  // Prevents the click listener for the list from being called when the button inside of it is clicked
+  // "stopPropogation" prevents the "list" click listener from being called when the button inside of it is clicked.  This is similar to preventDefault, but for current events
   e.stopPropagation();
 
   const note = e.target;
