@@ -1,6 +1,8 @@
 # Note Taker
 
-in the main folder, install Express:
+Find the live URL at: https://sheltered-coast-28214.herokuapp.com/
+
+For offline use, in the main folder, install Express:
 - npm install express
 
 Use "Node server.js" to run the .js file in Node without an .html file.  This will open a Node.js server using Express
