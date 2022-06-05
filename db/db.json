@@ -1,4 +1,1 @@
-[{
-    "title": "Test Title",
-    "text": "Test text"
-}]
+[{"id":1,"title":"Call bank on Friday","text":"Bank hours are 8am-5pm"},{"id":2,"title":"Mow the lawn","text":"Start after 10am"},{"id":3,"title":"Grocery list","text":"Milk, Eggs, bananas, bread, salad, tomatoes, jalapenos"},{"id":4,"title":"Conquer the world","text":"With violence"},{"id":5,"title":"Get coffee with George on Saturday","text":"George's number is 555-4012"},{"id":56,"title":"This is a note","text":"note note note"},{"id":55,"title":"This is a note","text":"Notey note note"}]
