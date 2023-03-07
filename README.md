@@ -26,7 +26,7 @@ A floppy-disk icon will appear at the top-right, next to the "+" button.  Click 
 To access your note, simply click the title of your note as it appears in the column on the left!
 While viewing a note, you can add another note by clicking the "+" icon in the top-right.
 
-[image of web page](./public/assets/images/App-screen.JPG)
+![image of web page](/public/assets/images/App-screen.JPG)
 
 ## Install Locally
 
