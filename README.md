@@ -6,13 +6,6 @@ A simple note-taking app that runs entirely in the browser using Node.js. A user
 
 Find the live URL at: https://sheltered-coast-28214.herokuapp.com/
 
-## Use Offline with Express
-
-For offline use, in the main folder, install Express:
-- npm install express
-
-Use "Node server.js" to run the .js file in Node without an .html file.  This will open a Node.js server using Express
-
 ## Features
 
 This app runs entirely in the browser and saves user sessions, allowing a user to access the notes even after closing the page.  Users can add, edit, or delete posts.  These are all organized in the web page and listed with the given titles.
@@ -28,10 +21,15 @@ While viewing a note, you can add another note by clicking the "+" icon in the t
 
 ![image of web page](/public/assets/images/App-screen.JPG)
 
-## Install Locally
+## Install Locally with Express
 
 Download the code at the below: 
 https://github.com/scarlinj/Note_Taker
 
-In your terminal, install Node and run the program using "Node index.js".
+Ensure you have Node.js installed on your machine: https://nodejs.org/en
+
+For offline use, in the main project folder, install Express:
+- npm install express
+
+Use "Node server.js" to run the .js file in Node without an .html file.  This will open a Node.js server using Express.  You can access the local site through localhost 3001.
 
