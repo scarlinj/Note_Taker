@@ -4,7 +4,7 @@
 
 A simple note-taking app that runs entirely in the browser using Node.js. A user's session saves after submitting a note and can even exit the browser without losing their posts.
 
-Find the live URL at: https://sheltered-coast-28214.herokuapp.com/
+I cancelled Heroku and will move this to a new host eventually.  The previous Heroku live URL is at: https://sheltered-coast-28214.herokuapp.com/
 
 ## Features
 
